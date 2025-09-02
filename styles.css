@@ -96,3 +96,12 @@ body {
     align-items: center;
     margin: 2px;
 }
+
+/* Styles for the new expenses list */
+.expense-item {
+    background-color: #f0f4f8;
+}
+
+.expense-item:nth-child(even) {
+    background-color: #e2e8f0;
+}
